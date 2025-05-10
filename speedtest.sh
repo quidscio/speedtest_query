@@ -7,7 +7,7 @@
 
 # paths (option A is WSL, option B is server)
 SCRIPTA="$HOME/___quick/arc/projects/speedtest_query/dep_speedtest-cli/speedtest.py"
-SCRIPTB="$HOME/projects/dep_speedtest-cli/speedtest_query/speedtest.py"
+SCRIPTB="$HOME/projects/speedtest_query/dep_speedtest-cli/speedtest.py"
 DATAA="$HOME/___quick/arc/projects/speedtest_query/data/results-cli.csv"
 DATAB="$HOME/projects/speedtest_query/data/results-cli.csv"
 
