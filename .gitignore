@@ -1,0 +1,3 @@
+.ipynb_checkpoints/*
+archive/*
+data/results-cli.csv
