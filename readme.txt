@@ -18,7 +18,10 @@ echo "\"`date +'%Y-%m-%d'`\",\"`date +'%H:%M:%S'`\",`$HOME/arc/projects/dep_spee
 * git clone to speedtest_query 
  * git clone --recurse-submodules https://github.com/quidscio/speedtest_query.git
 * cd to speedtest_query 
-* cp results-cli_header.csv data/results-cli.csv 
-* test 
+* cp results-cli_header.csv data/results-cli.csv (probably already done in repo)
+* install sudo apt install python-is-python3
+* ./speedtest.sh  
 * setup cron 
+ * crontab -e 
+   * 8,28,48 * * * *  $HOME/projects/speedtest_query/speedtest.sh
 * cross fingers 
