@@ -16,7 +16,7 @@ echo "\"`date +'%Y-%m-%d'`\",\"`date +'%H:%M:%S'`\",`$HOME/arc/projects/dep_spee
 ## Setup 
 * cd to $HOME/projects
 * git clone to speedtest_query 
- * git clone --recurse-submodules git@github.com:quidscio/speedtest_query.git
+ * git clone --recurse-submodules https://github.com/quidscio/speedtest_query.git
 * cd to speedtest_query 
 * cp results-cli_header.csv data/results-cli.csv 
 * test 
